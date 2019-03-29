@@ -15,18 +15,25 @@ Este programa utiliza la API de "Eventos" de GitHub para imprimir todo el **push
 
 Ahora bien, digamos que desea obtener los tiempos de confirmación para una serie de repositorios
 con:
-_Estudiantes en GitHub Classroom Repos Formatos_
+_Estudiantes en GitHub Classroom Repos Formatos:_
+
 assignment3-student1 and assignment3-student2, etc.
 
-_Corrida_
+_Corrida:_
+
 `python github-event-times.py assignment3-student1 assignment3-student2`
 
-_Resultados_
-esto imprimirá una tabla con los ID de confirmación (prefijo de 7 dígitos, mismo
-como se informó en la lista de confirmaciones de GitHub), la cadena de confirmación y la
-Momento en que ese compromiso fue empujado a GitHub. Tenga en cuenta que los tiempos son
+_Resultados:_
+
+Esto imprimirá una tabla con los ID de confirmación (prefijo de 7 dígitos, mismo
+como se informó en la lista de confirmaciones de GitHub), la cadena de confirmación y el
+momento en que ese compromiso fue empujado a GitHub. 
+**Puede ver el contenido compilado en http://quicklatex.com en linea por ejemplo.*
+
+
+_NOTA: Tenga en cuenta que los tiempos son
 informado en [RFC 3339] (https://www.ietf.org/rfc/rfc3339.txt) estilo,
-que es UTC, por lo que es posible que desee ajustar esto a su hora local.
+que es UTC, por lo que es posible que desee ajustar esto a su hora local._
 
 ```
 Example
