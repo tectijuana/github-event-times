@@ -1,3 +1,5 @@
+![](https://www.bettshow.com/__media/libraries/bett-products-list/57B9A1C5-5056-B71D-5E0FAB0C40FD1ED1-supporting_image_1.png)
+
 # github-event-times.py 
 
 Este programa utiliza la API de "Eventos" de GitHub para imprimir todo el **push** tiempos para cada confirmación, con su salida en formato "tabular" de LaTeX. Esta podría ser útil si tienes un estudiante que sospechas que está falsificando comprometa los tiempos alrededor de una fecha límite y necesita documentar lo que sucedió.
