@@ -74,3 +74,5 @@ b4bc6f0 & Update README.md & 2019-02-25T18:56:12Z \\
 \hline
 \end{tabular}
 ```
+
+![](quicklatex_example.png)
